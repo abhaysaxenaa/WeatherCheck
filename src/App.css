@@ -1,9 +1,9 @@
 html{
-  background: linear-gradient(75deg, rgb(5, 18, 44), rgb(100, 20, 50));
+  background: black;
 }
 
 .form {
-  background: linear-gradient(75deg, rgb(5, 18, 44), rgb(100, 20, 50));
+  background-image: url(assets/earth6.jpg);
   /*color: rgb(134, 25, 134);*/
   color: red;
   height: 100%;
