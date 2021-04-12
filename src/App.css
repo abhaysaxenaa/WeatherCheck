@@ -2,9 +2,8 @@ html{
   background: black;
 }
 
-.form {
-  background-image: url(assets/earth6.jpg);
-  /*color: rgb(134, 25, 134);*/
+.App {
+  background-image: url(assets/earth.jpg);
   color: red;
   height: 100%;
   width: 100%;
@@ -19,6 +18,8 @@ html{
 main {
   flex-grow: 1;
   text-align: center;
+  margin-top: 250px;
+  margin-right: 850px;
   padding: 25px;
 }
 footer {
@@ -32,4 +33,39 @@ footer {
 }
 header {
   padding: 25px;
+}
+
+button {
+  display: block;
+  justify-content: left;
+  text-align: center;
+  padding: .5rem;
+  font-size: 0.5em;
+  background: darkcyan;
+  border-radius: 5px;
+  color: lime;
+  cursor: pointer;
+  margin: 10px auto;
+  border-color: lime;
+}
+
+button:hover{
+  color: lime;
+}
+
+input{
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 20px;
+  color: black;
+}
+
+p{
+  font-weight: 200;
+}
+
+footer{
+  text-align: right;
+  margin-right: 20px;
 }
